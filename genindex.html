@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; HomeAssistant Guide</title>
+    <title>Index &#8212; HomeAssistant Configuration Guide</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -78,10 +78,10 @@ const thebe_selector_output = ".output, .cell_output"
         
       
       
-      <img src="_static/logo.png" class="logo" alt="logo">
+      <img src="_static/ha.jpg" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">HomeAssistant Guide</h1>
+      <h1 class="site-logo" id="site-title">HomeAssistant Configuration Guide</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -92,20 +92,59 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="intro.html">
-   Welcome to your Jupyter Book
+   HomeAssistant Configuration Guide
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="markdown.html">
-   Markdown Files
+  <a class="reference internal" href="Configuration/configuration.html">
+   Configuration
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="notebooks.html">
-   Content with notebooks
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Integrations/integrations.html">
+   Integrations
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Integrations/addons.html">
+     Addons
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Integrations/hacs.html">
+     HACS
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Lovelace/lovelace.html">
+   Lovelace
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Sensors/sensors.html">
+   Sensors
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Sensors/custom-sensors.html">
+     Custom Sensors
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -147,13 +186,10 @@ const thebe_selector_output = ".output, .cell_output"
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/NEUR0515/HomeAssistant Guide"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/NEUR0515/HomeAssistantGuide.git"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/NEUR0515/HomeAssistant Guide/issues/new?title=Issue%20on%20page%20%2Fgenindex.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
         
     </div>
 </div>
@@ -210,9 +246,9 @@ const thebe_selector_output = ".output, .cell_output"
     <footer class="footer">
   <p>
     
-      By NEUR0515<br/>
+      By @NEUR0515<br/>
     
-        &copy; Copyright 2022.<br/>
+        &copy; Copyright 2021.<br/>
   </p>
 </footer>
 </main>

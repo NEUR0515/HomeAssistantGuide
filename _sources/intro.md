@@ -1,16 +1,19 @@
-# Welcome to your Jupyter Book
+# HomeAssistant Configuration Guide
 
-This is a small sample book to give you a feel for how book content is
-structured.
-
-:::{note}
-Here is a note!
-:::
-
-And here is a code block:
-
-```
-e = mc^2
+```{note}
+This is a guide to help you install and configure various addons and platforms for HomeAssistant
 ```
 
-Check out the content pages bundled with this sample book to see more.
+## References
+
+Use the following pages for references:
+
+- [HomeAssistant Integrations](https://www.home-assistant.io/integrations/)
+- [HomeAssistant Examples](https://www.home-assistant.io/examples/)
+- [HACS Addons](https://hacs.xyz)
+- [HomeAssistant Automations Basics](https://www.home-assistant.io/docs/automation/basics/)
+
+## Chapters
+
+```{tableofcontents}
+```
